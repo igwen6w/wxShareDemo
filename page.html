@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="appname">
+    <meta name="apple-itunes-app" content="app-id=1495292950" />
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <title>网页标题</title>
+    <script src="/assets/plugins/jquery.min.js"></script>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    <script src="/assets/js/utils.js?t=1"></script>
+    <script src="/assets/js/jwxShare.js?t=5.6"></script>
+    <script>
+        var newsid = '394497';
+        var shareInfo = {
+            title: "网页标题",
+            desc: "网页描述",
+            link: location.href,
+            img: "https://easywechat.com/logo-icon.svg"
+        }
+        if (utils.isweixin()) wxShare(shareInfo);
+
+    </script>
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+</head>
+<body>
+   wxShareDemo 
+</body>
+</html>
